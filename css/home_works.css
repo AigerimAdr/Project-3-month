@@ -1,0 +1,41 @@
+/* HW 1 part 1  */
+
+.email_block {
+    background: black;
+    padding: 100px 0;
+}
+
+.inner_email_block {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+/* HW 1 part 2  */
+.move_block {
+    background: black;
+    padding: 100px 0;
+}
+
+.parent_block {
+    height: 500px;
+    width: 500px;
+    border: 2px solid orange;
+    position: relative;
+    margin: 20px auto;
+}
+
+.child_block {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: red;
+    left: 10px;
+}
+
+.inner_move_block {
+    margin-top: 50px;
+}
